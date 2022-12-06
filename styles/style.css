@@ -1,16 +1,70 @@
-.container{
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 300px;
-    margin: auto;
-    background-color: aliceblue;
-    padding: 20px;
-    border-radius: 10px;
+@charset "UTF-8";
+
+* { 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
-input{
-    width: 100%;
-    display: block;
-    padding: 5px;
-    box-sizing: border-box;
+body, html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to top, #1d1716ef, #6e3723c5);
+    height: 100vh;
+    width: 100vw;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
     margin-bottom: 10px;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    
+}
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #5f2c82 url(../imagem/pexels-photo-3997609.jpeg) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 520px;
+    border-radius: 20px;
+    
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.733);
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease
+}
+
+input {
+    background-color: #2b1d19;
+    border: 2px solid #402a2373;
+    display: block;
+    width: 89%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px 12px;
+    padding: 10px;
+    
+}
+
+section > button {
+    margin: 5px 90px;
 }

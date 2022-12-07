@@ -40,7 +40,7 @@ section#login > div#formulario {
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagem/pexels-photo-3997609.jpeg) no-repeat;
+    background: #1d1716ef url(../imagem/pexels-photo-3997609.jpeg) no-repeat;
     background-size: cover;
     height: 200px;
     border-radius: 20px;

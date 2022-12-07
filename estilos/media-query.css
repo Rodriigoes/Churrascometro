@@ -1,0 +1,27 @@
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #1d1716ef, #6e3723c5)
+    }
+    section#login {
+        width: 970px;
+        height: 350px;
+    }
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    input {
+        float: left;
+        width: 30%;
+        padding: 10px;
+        margin-left: 80px;
+    }
+    p {
+        margin-left: 80px;
+    }
+   
+
+
+}
